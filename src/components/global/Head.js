@@ -1,5 +1,5 @@
 import Head from "next/head";
-export default function Head() {
+export default function MetaTags() {
   return (
     <Head>
       <title>HakaPlay</title>
