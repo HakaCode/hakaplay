@@ -1,0 +1,40 @@
+{
+  "list": [
+    {
+      "title": "Top 10",
+      "results": [
+        {
+          "poster": "",
+          "title": "The 100"
+        }
+      ]
+    },
+    {
+      "title": "News",
+      "results": [
+        {
+          "poster": "",
+          "title": "The 100"
+        }
+      ]
+    },
+    {
+      "title": "Anime",
+      "results": [
+        {
+          "poster": "",
+          "title": "The 100"
+        }
+      ]
+    },
+    {
+      "title": "Shows",
+      "results": [
+        {
+          "poster": "",
+          "title": "The 100"
+        }
+      ]
+    }
+  ]
+}
