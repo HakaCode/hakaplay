@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1440px) {
+  .carousel__prev,
+  .carousel__next {
+    width: 5%;
+  }
+}
+.carousel {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cards {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  white-space: nowrap;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 15px;
+}
+.head__wrapper {
+  padding-bottom: 20px;
+  position: relative;
+  span {
+    a {
+      width: 90%;
+      height: 25px;
+      display: block;
+      font-size: 19px;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      line-height: 25px;
+      padding: 0;
+      color: white;
+      text-decoration: none;
+      cursor: default;
+    }
+  }
+  .carousel_nav {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    button {
+      font-size: 56px;
+      width: 50px;
+      height: 50px;
+      background: transparent;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:focus {
+      outline: 0;
+    }
+  }
+}

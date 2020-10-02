@@ -1,14 +1,15 @@
+import Carousel from "../components/Carousel";
 import Head from "../components/global/Head";
-import styles from "./index.scss";
-
+import data from "../../home.json";
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head />
-      <main>
-        <h1>Browse Home</h1>
-        <a href="/movies">Movies</a>
-      </main>
+      <div className="wrapper" style={{ marginTop: 30, marginLeft: "2%" }}>
+        {data.list.map((list, index) => (
+          <Carousel key={index} title={list.title} results={list.results} />
+        ))}
+      </div>
     </div>
   );
 }
